@@ -1,5 +1,5 @@
 using System;
-class MainClass {
+class Problem1Class {
   public static void Main (string[] args) {
 
     int squareSize = int.Parse(Console.ReadLine());
