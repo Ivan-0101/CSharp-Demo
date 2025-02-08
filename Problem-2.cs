@@ -11,7 +11,7 @@ double bathroomArea = bathroomWidth * bathroomHeigth;
 double tileArea = tileWidth * tileHeigth;
 double numberOfTiles = (bathroomArea / tileArea) * 0.1 + (bathroomArea / tileArea);
 
-Console.WriteLine(numberOfTiles);
+Console.WriteLine($"{numberOfTiles:F0}");
     }
   }
 
