@@ -1,9 +1,12 @@
 using System;
+using System.Linq;
+using System.Collections.Generic;
+
 class Problem4Class {
   public static void Main (string[] args) {
 
 List<int> numbers = Console.ReadLine()
-    .Split(" ")
+    .Split(" ", StringSplitOptions.RemoveEmptyEntries)
     .Select(int.Parse)
     .ToList();
 

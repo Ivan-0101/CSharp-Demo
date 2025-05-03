@@ -19,7 +19,7 @@ class Program {
 
 /*
 git branch - Check which branch you're currently on (Local).
-git branch -r - List all branches (Remote).
+git branch -r - List all bches (Remote).
 git branch -a - List all branches (Local + Remote).
 git checkout branch-name – Switch to the desired branch.
 git checkout -- name-of-the-file-to-discard - Discard changes of a file stopping you from switching between branches.
