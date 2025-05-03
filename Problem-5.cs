@@ -6,12 +6,12 @@ class Problem5Class {
   public static void Main (string[] args) {
 
       List<int> numbers1 = Console.ReadLine()
-          .Split(" ")
+          .Split(" ", StringSplitOptions.RemoveEmptyEntries)
           .Select(int.Parse)
           .ToList();
 
       List<int> numbers2 = Console.ReadLine()
-          .Split(" ")
+          .Split(" ", StringSplitOptions.RemoveEmptyEntries)
           .Select(int.Parse)
           .ToList();
 

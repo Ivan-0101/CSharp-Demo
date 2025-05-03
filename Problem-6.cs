@@ -6,7 +6,7 @@ class Problem6Class {
   public static void Main (string[] args) {
 
 List<int> input = Console.ReadLine()
-    .Split(" ")
+    .Split(" ", StringSplitOptions.RemoveEmptyEntries)
     .Select(int.Parse)
     .ToList();
 
